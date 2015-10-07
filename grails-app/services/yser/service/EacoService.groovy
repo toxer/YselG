@@ -6,6 +6,12 @@ import it.ictechnology.eaco.client.framework.Client
 import it.ictechnology.eaco.client.framework.FrameworkFacade
 
 class EacoService {
+	
+	def resetSessionClient(def session){
+		session.removeAttribute('client')
+		session.removeAttribute('CurrentEnte')
+	}
+	
 	def getUsersCreadentials(def request,def session){
 		if (!session.client || !session.CurrentEnte){
 			Client eacoClient = FrameworkFacade.getClient(request);

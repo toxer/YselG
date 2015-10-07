@@ -64,17 +64,17 @@
 								<li class="visible-xs "><a href="${createLink(uri:'/')}"
 									id="returnHome" class="navbar-button"><i
 										class="glyphicon glyphicon-home"></i> Home</a></li>
-								<li><a href="${createLink(controller: 'ricerca')}"
+								<li><a href="${createLink(controller: 'test')}"
 									id="ricerca" class="navbar-button"><i
-										class="glyphicon glyphicon-search"></i> RICERCA</a></li>
-								<li><a href="${createLink(controller: 'news')}" id="news"
+										class="glyphicon glyphicon-search"></i> PULSANTE 1</a></li>
+								<li><a href="${createLink(controller: 'test')}" id="news"
 									class="navbar-button"><i
-										class="glyphicon glyphicon-th-list"></i> NOTIZIE</a></li>
+										class="glyphicon glyphicon-th-list"></i> PULSANTE 2</a></li>
 
 								<li class="paddingRightNavBar"><a
-									href="${createLink(controller: 'preregistrazione')}"
-									id="iscriviti" class="navbar-button"><i
-										class="glyphicon glyphicon-th-list"></i> NEWSLETTER</a></li>
+									href="${createLink(controller: 'test')}" id="iscriviti"
+									class="navbar-button"><i
+										class="glyphicon glyphicon-th-list"></i> Pulsante 3</a></li>
 
 								<li><a id="assistenzaButton"
 									class="visible-xs  glyphicon glyphicon-envelope navbar-button">
@@ -85,7 +85,7 @@
 
 						<div class="breadCumb  hidden-xs gradient">
 							<p>
-								SERVIZIO ASSISTENZA REGISTRO IMPRESE:
+
 								<g:layoutTitle />
 
 
