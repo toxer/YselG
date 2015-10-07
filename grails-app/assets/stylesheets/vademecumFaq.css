@@ -1,0 +1,94 @@
+.titoloPagina {
+	background: rgb(205, 51, 51);
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	border-radius: 6px;
+	margin: 5px;
+	border-radius: 6px;
+}
+
+.section1 {
+	background-color: #EBEBEB;
+	padding: 1em;
+	color: rgb(99, 99, 99);
+	font-weight: bold;
+	width: auto;
+}
+
+.section2 {
+	padding: 1em;
+	color: rgb(99, 99, 99);
+	font-weight: normal;
+	width: auto;
+}
+
+.faqBody {
+	padding: 1em;
+	color: rgb(99, 99, 99);
+	font-weight: normal;
+	width: auto;
+}
+
+.titoloPratiche {
+	background: #EBEBEB;
+	border-radius: 6px;
+	font-weight: bold;
+	color: rgb(99, 99, 99);
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.sottotitoloPratiche {
+	font-weight: bold;
+	color: rgb(99, 99, 99);
+	text-align: left;
+	margin-bottom: 1.5em;
+}
+
+.praticheBody {
+	color: rgb(99, 99, 99);
+	margin-bottom: 3em;
+}
+
+.tabellePratiche table{
+	color: rgb(99, 99, 99)!important;
+	margin-bottom: 3em;
+}
+
+@media ( min-width : 767px) {
+	.titoloPagina {
+		font-size: 1.3em
+	}
+	.section1 {
+		font-size: 1.3em
+	}
+	.section2 {
+		font-size: 1.3em
+	}
+	.faqBody {
+		font-size: 1em
+	}
+	.tabellePratiche table{
+		font-size: 1.1em!important;
+	}
+}
+
+@media ( max-width : 767px) {
+	.titoloPagina {
+		font-size: 1em
+	}
+	.section1 {
+		font-size: 1em
+	}
+	.section2 {
+		font-size: 1em
+	}
+	.faqBody {
+		font-size: 0.8em
+	}
+	.tabellePratiche table {
+		font-size: 1em!important;
+	}
+}
